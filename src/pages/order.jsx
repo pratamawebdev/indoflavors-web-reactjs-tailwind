@@ -42,7 +42,7 @@ const OrderPage = () => {
 
   const handleDetail = (id) => {
     console.log(id);
-    navigate(`/detaifood/${id}`);
+    navigate(`/detailfood/${id}`);
   };
 
   const handleUpdate = (id) => {

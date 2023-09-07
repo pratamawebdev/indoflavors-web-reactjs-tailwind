@@ -44,8 +44,8 @@ const LoginPage = () => {
   return (
     <div className="flex h-screen">
       <img
-        className="hidden lg:w-1/2 lg:block"
-        src="src/assets/images/Login-Register.jpg"
+        className="hidden object-cover lg:w-1/2 lg:block"
+        src="https://i.pinimg.com/736x/e4/6c/38/e46c38dc99a8d1c542a13615a97670d2.jpg"
       />
 
       <div className="flex flex-col items-center justify-center w-full border lg:w-1/2">

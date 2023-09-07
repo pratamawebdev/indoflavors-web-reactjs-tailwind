@@ -18,7 +18,7 @@ const HeroLayouts = () => {
           <div className="flex justify-center">
          </div>
         </div>
-        <HeroImg alt="Hero Image" src="src/assets/images/HeroImg.jpg" />
+        <HeroImg alt="Hero Image" src="https://i.pinimg.com/564x/2f/1c/46/2f1c464817c86b700fe116f04081aa9f.jpg" />
       </div>
     </section>
   );

@@ -19,7 +19,14 @@ const routes = [
       </ProtectedRoute>
     ),
   },
-  { path: "/detaifood/:userId", element: <DetailFoodPage /> },
+  {
+    path: "/detailfood/:userId",
+    element: (
+      <ProtectedRoute>
+        <DetailFoodPage />
+      </ProtectedRoute>
+    ),
+  },
   {
     path: "/orders",
     element: (
@@ -30,16 +37,20 @@ const routes = [
   },
   {
     path: "/createfood",
-    element: <CreateFoodPage />,
+    element: (
+      <ProtectedRoute>
+        <CreateFoodPage />
+      </ProtectedRoute>
+    ),
   },
   {
-    path: "/updatefood/:userId", 
-    element: 
-    
-      
+    path: "/updatefood/:userId",
+    element: (
+      <ProtectedRoute>
         <UpdateFoodPage />
-      
-  }
+      </ProtectedRoute>
+    ),
+  },
 ];
 function App() {
   const element = useRoutes(routes);
