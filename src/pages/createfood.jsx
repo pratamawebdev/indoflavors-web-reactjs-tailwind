@@ -46,7 +46,7 @@ const CreateFoodPage = () => {
         </Link>
       </div>
     <div className="w-full max-w-md p-6 bg-white rounded shadow-md">
-      <h2 className="mb-4 text-2xl">Add New Update</h2>
+      <h2 className="mb-4 text-2xl">Add New Food</h2>
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 text-gray-600">
           Name
