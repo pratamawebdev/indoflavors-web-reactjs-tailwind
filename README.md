@@ -21,7 +21,7 @@ To install and run this project in your local environment, follow these steps:
 2. Move to the project directory: Go to the IndoFlavors project directory:
     
     ```bash
-     cd Indoflavors
+   cd Indoflavors
 
 3. Install dependencies: Run the following command to install all the required dependencies:
    
